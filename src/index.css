@@ -1,0 +1,36 @@
+:root {
+  --max-width: 1000px;
+  --border-radius-size: 5px;
+  --primary-color: #fca311;
+  --secondary-color: #14213d;
+  --black-color: #000000;
+  --black-transparent-color: #00000040;
+  --dark-gray-color: #777;
+  --gray-color: #e5e5e5;
+  --white-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--gray-color);
+  color: var(--black-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

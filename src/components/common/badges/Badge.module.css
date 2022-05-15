@@ -1,0 +1,11 @@
+.badge {
+  padding: 0.25rem 0.75rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+  border: 1.5px solid var(--dark-gray-color);
+  transition: background-color 0.1s ease-in-out;
+}
+
+.badge:hover {
+  background-color: var(--gray-color);
+}

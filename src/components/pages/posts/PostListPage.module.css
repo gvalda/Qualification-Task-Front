@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  max-width: 300px;
+}
+
+.sorting-select {
+  margin-left: 5rem;
+}

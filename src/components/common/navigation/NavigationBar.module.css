@@ -1,0 +1,27 @@
+.navigation {
+  max-width: calc(var(--max-width) * 1.1);
+  margin: auto;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.navigation ul li a {
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.navigation ul li a:hover {
+  border-color: var(--primary-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .navigation ul {
+    flex-direction: column;
+  }
+}
